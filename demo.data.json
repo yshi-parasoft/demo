@@ -8,36 +8,14 @@
             "sourcepath": [
       "${JSON_DIR}/src/main/java/"
             ],
-			"compiler_output_path": [],
-            "classpath_entries":  [
-              {
-                "path": "${jvm_prop:java.home}/lib/jrt-fs.jar",
-                "type": "JDK",
-                "scope": {
-                  "compile": true,
-                  "runtime": true,
-                  "exported": false
-                }
-              },
-              {
-                "path": "${JSON_DIR}/lib/junit-4.13.2.jar",
-                "type": "LIBRARY",
-                "scope": {
-                  "compile": true,
-                  "runtime": true,
-                  "exported": false
-                }
-              },
-              {
-                "path": "${JSON_DIR}/lib/servlet-api-2.4.jar",
-                "type": "LIBRARY",
-                "scope": {
-                  "compile": true,
-                  "runtime": true,
-                  "exported": false
-                }
-              }
+			"binarypath": [],
+            "classpath":  [
+      "${JSON_DIR}/lib/junit-4.13.2.jar",
+      "${JSON_DIR}/lib/servlet-api-2.4.jar"
             ],
+            "bootpath":   [
+      "${jvm_prop:java.home}/lib/jrt-fs.jar"
+       ],
             "encoding":   "UTF-8",
             "sourcelevel": "1.8"
         }

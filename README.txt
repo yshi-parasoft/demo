@@ -1,20 +1,9 @@
-The description of Ant, Maven, and Gradle integration is available at https://docs.parasoft.com/display/JTEST20242/Integrating+with+Build+Systems
+The description of Ant, Maven, and Gradle integration is available at https://docs.parasoft.com/display/JTEST20232/Integrating+with+Build+Systems
 
 This document describes how to perform static analysis, run tests, and collect coverage information with Jtest - using the "demo" project shipped with the product.
 
 Please note that the analysis of this project is configured with the settings specified in the demo.properties file located in the [INSTALL]/examples/demo directory.
 The demo.properties file is used by Ant, Maven and Gradle build scripts. The following command line examples are intended to be executed from the "demo" project directory.
-
-Note for PowerShell users:
-Passing parameters with dots in their names and leading dashes can sometimes result in unexpected behavior due to the way PowerShell interprets special characters.
-To ensure smooth execution, use one of the approaches described below:
-A.  Use a backtick "`" to escape the leading dash.
-    Example:
-    `-Djtest.config="builtin://Demo Configuration"
-
-B.  Enclose both the parameter name and its value in double quotes.
-    Example:
-    "-Djtest.config=builtin://Demo Configuration"
 
 
 Prerequisites
@@ -58,7 +47,7 @@ Ant
 Maven
 -------------------------------------------------
 1. Configure your Maven setup by following the Jtest User Guide:
-   https://docs.parasoft.com/display/JTEST20242/Configuring+the+Jtest+Plugin+for+Maven
+   https://docs.parasoft.com/display/JTEST20232/Configuring+the+Jtest+Plugin+for+Maven
 
 2. Run "Demo Configuration" to perform static analysis and collect coverage for unit tests:
 
@@ -152,8 +141,8 @@ UNIX:
 
 
 For more information see:
-   https://docs.parasoft.com/display/JTEST20242/Testing+and+Analysis+with+Maven
-   https://docs.parasoft.com/display/JTEST20242/Testing+and+Analysis+with+Gradle
+   https://docs.parasoft.com/display/JTEST20232/Testing+and+Analysis+with+Maven
+   https://docs.parasoft.com/display/JTEST20232/Testing+and+Analysis+with+Gradle
 
 =================================================
 
@@ -250,4 +239,4 @@ UNIX:
      Coverage details are available in report.html
 
 
-For more information see https://docs.parasoft.com/display/JTEST20242/Application+Coverage
+For more information see https://docs.parasoft.com/display/JTEST20232/Application+Coverage

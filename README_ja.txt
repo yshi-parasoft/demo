@@ -1,5 +1,5 @@
 Ant、Maven、Gradle との統合の説明は次のページにあります。
-https://docs.parasoft.com/display/JTESTJP20241/Integrating+with+Build+Systems
+https://docs.parasoft.com/display/JTESTJP20231/Integrating+with+Build+Systems
 
 このドキュメントは、製品に付属の "demo" プロジェクトを使用して、Jtest で静的解析、テスト実行、カバレッジ情報の収集を行う方法を説明します。
 
@@ -8,18 +8,6 @@ https://docs.parasoft.com/display/JTESTJP20241/Integrating+with+Build+Systems
 demo.properties ファイルは Ant、Maven、Gradle ビルド スクリプトによって使用されます。
 以下のコマンド ラインのサンプルは、"demo" プロジェクト ディレクトリで実行することを
 前提にしています。
-
-
-PowerShell ユーザー向け注意事項:
-名前にドットを含み先頭にダッシュがあるパラメーターを渡すと、PowerShell の特殊文字の解釈方法が原因で予期しない動作が発生する場合があります。
-実行に支障がないよう、次のいずれかの表記方法を使用してください。
-A.  バッククオート "`" で先頭のダッシュをエスケープします。
-    例:
-    `-Djtest.config="builtin://Demo Configuration"
-
-B.  パラメーター名と値をダブルクオートで囲みます。
-    例:
-    "-Djtest.config=builtin://Demo Configuration"
 
 
 前提条件
@@ -61,7 +49,7 @@ Ant
 Maven
 -------------------------------------------------
 1. Jtest ユーザー ガイドに従って Maven を設定します。
-   https://docs.parasoft.com/display/JTESTJP20241/Configuring+the+Jtest+Plugin+for+Maven
+   https://docs.parasoft.com/display/JTESTJP20231/Configuring+the+Jtest+Plugin+for+Maven
 
 2. "Demo Configuration" を実行して、静的解析を行い、単体テストのカバレッジを収集します。
 
@@ -153,8 +141,8 @@ UNIX:
 
 
 詳細は以下を参照してください。
-   https://docs.parasoft.com/display/JTESTJP20241/Testing+and+Analysis+with+Maven
-   https://docs.parasoft.com/display/JTESTJP20241/Testing+and+Analysis+with+Gradle
+   https://docs.parasoft.com/display/JTESTJP20231/Testing+and+Analysis+with+Maven
+   https://docs.parasoft.com/display/JTESTJP20231/Testing+and+Analysis+with+Gradle
 
 =================================================
 
@@ -250,4 +238,4 @@ UNIX:
      カバレッジの詳細が report.html に出力されます。
 
 
-詳細は https://docs.parasoft.com/display/JTESTJP20241/Application+Coverage を参照してください。
+詳細は https://docs.parasoft.com/display/JTESTJP20231/Application+Coverage を参照してください。
